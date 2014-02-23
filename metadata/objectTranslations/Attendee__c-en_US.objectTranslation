@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attendee</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attendees</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attended Event --></label>
+        <name>Attended_Event__c</name>
+        <relationshipLabel><!-- Attendees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guest Of --></label>
+        <name>GuestOf__c</name>
+        <relationshipLabel><!-- Guest Of --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt In --></label>
+        <name>Opt_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- PD Connection --></label>
+        <name>PD_Connection__c</name>
+        <picklistValues>
+            <masterLabel>A Family Member</masterLabel>
+            <translation><!-- A Family Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A Friend</masterLabel>
+            <translation><!-- A Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I have Parkinson&apos;s</masterLabel>
+            <translation><!-- I have Parkinson&apos;s --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address --></label>
+        <name>Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIP --></label>
+        <name>VIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>Zip__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Ask a Question --></label>
+        <name>Ask_a_Question</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opt Out --></label>
+        <name>Opt_Out</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Post a Question --></label>
+        <name>Post_a_Question</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Private Question --></label>
+        <name>Private_Question</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 500m Niko Baby! --></label>
+        <name>X500m_Niko_Baby</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
